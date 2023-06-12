@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -tp | sort -ngrep -v /$ | head -10
+ls -t | head 
