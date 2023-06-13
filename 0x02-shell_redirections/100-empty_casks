@@ -1,2 +1,2 @@
 #!/bin/bash
-~/lists -empty -printf '%y %p\n'
+find . -mindepth 1 -type d -empty -print -o -type f -empty -print
