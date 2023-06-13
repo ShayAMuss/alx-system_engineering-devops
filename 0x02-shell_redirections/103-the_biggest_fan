@@ -1,2 +1,2 @@
 #!/bin/bash
-awk -f script.awk output.txt
+ip=$(ip address| awk '/inet/ {print $2}' | grep -v ^::1 | grep -v ^127)
