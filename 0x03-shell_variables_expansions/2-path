@@ -1,2 +1,2 @@
 #!/bin/bash
-export PATH="$PATH:/action"
+NUM_DIRS=$(echo "$PATH" | wc -l)
