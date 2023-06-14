@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -io | wc -l
+head -${i}
