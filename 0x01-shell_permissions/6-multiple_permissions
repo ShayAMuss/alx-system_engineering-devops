@@ -1,2 +1,2 @@
 #!/bin/bash
-chown g+wx o-wx hello
+chown 751 hello
