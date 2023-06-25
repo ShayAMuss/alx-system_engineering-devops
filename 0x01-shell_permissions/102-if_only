@@ -1,0 +1,2 @@
+#!/bin/bash
+find. -f hello guallaume exec chown betty
